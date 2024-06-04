@@ -9,7 +9,8 @@ header {
 body {
     background-image: url(Imagens/imagem_1.webp);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
+    height: 100vh;
 }
 .registration-screen{
     background-image: linear-gradient(to bottom, green, rgb(93, 255, 101));
