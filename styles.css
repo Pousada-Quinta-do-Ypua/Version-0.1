@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 .registration-screen{
     background-image: linear-gradient(to bottom, green, rgb(93, 255, 101));
@@ -25,10 +26,26 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
 .container {
     margin-top: 20px;
+}
+
+label {
+    color: white;
+    font-weight: 500;
+    text-shadow: #000 2px 1px 5px;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: green;
 }
