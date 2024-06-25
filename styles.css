@@ -11,6 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 .registration-screen{
     background-image: linear-gradient(to bottom, green, rgb(93, 255, 101));
@@ -25,7 +26,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: relative;
     width: 100%;
     bottom: 0;
 }
