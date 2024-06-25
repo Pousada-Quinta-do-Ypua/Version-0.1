@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Acomodações</h2>
+<p>Explore nossa seleção de quartos confortáveis e rústicos, ideais para um refúgio tranquilo.</p>
+<ul>
+    {% for room in rooms %}
+    <li>
+        <h3>{{ room.type }}</h3>
+        <p>{{ room.description }}</p>
+        <p>Preço: R$ {{ room.price }}</p>
+    </li>
+    {% endfor %}
+</ul>
+{% endblock %}
